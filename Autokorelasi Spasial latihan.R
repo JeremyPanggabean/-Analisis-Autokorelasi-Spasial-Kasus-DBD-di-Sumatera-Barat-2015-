@@ -112,15 +112,15 @@ plot.sumatera = ggplot(data=gabung.sumatera) +
   scale_fill_manual(
     values = c(
       "high-high" = "#D7191C",  # merah
-      "low-low" = "#2C7BB6",    # biru
+      "low-low" = "#A6D854",    # hijau muda
       "high-low" = "#FDAE61",   # oranye
-      "low-high" = "#ABD9E9"    # biru muda
+      "low-high" = "#2C7BB6"    # biru
     ),
     name = "Local Moran's I"
   ) +
   labs(
-    title = "Peta Kuadran Local Moran Kasus DBD Sumatera Barat",
-    subtitle = "Tiap kecamatan dikategorikan berdasarkan hasil Local Moran",
+    title = "Peta Kuadran Local Moran Kasus DBD SUMBAR",
+    subtitle = "Dikategorikan tiap kecamatan berdasarkan hasil Local Moran",
     fill = "Kategori Kuadran"
   ) +
   theme_minimal()
@@ -133,7 +133,7 @@ plot.sumatera.sig = ggplot(data=gabung.sumatera) +
   scale_fill_manual(
     values = c(
       "Signifikan" = "tomato",
-      "Tidak Signifikan" = "lightgray"
+      "Tidak Signifikan" = "white"
     ),
     name = "Signifikansi"
   ) +
