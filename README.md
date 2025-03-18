@@ -63,7 +63,7 @@ Scatterplot ini menunjukkan hubungan antara nilai atribut (jumlah kasus DBD) pad
 
 ### 🗺️ Peta Kuadran Local Moran
 
-![Peta Kuadran Local Moran](Peta%20Kuadran%20Local%20Moran.png)
+![Visualisasi Peta Kuadran Local Moran SUMBAR](Visualisasi%20Peta%20Kuadran%20Local%20Moran%20SUMBAR.png)
 
 Peta ini memvisualisasikan kategori kuadran berdasarkan hasil _Local Moran's I_ untuk setiap kecamatan di Sumatera Barat. Warna menunjukkan pola spasial:
 
@@ -76,12 +76,12 @@ Peta ini memvisualisasikan kategori kuadran berdasarkan hasil _Local Moran's I_ 
 
 ### 🧪 Signifikansi Autokorelasi Spasial
 
-![Signifikansi Autokorelasi Spasial](Visualisasi%20Signifikansi%20Autokorelasi%20Spasial.png)
+![Visualisasi Autokorelasi Spasial](Visualisasi%20Signifikansi%20Autokorelasi%20Spasial.png)
 
 Peta ini menyoroti kecamatan dengan _autokorelasi spasial signifikan_ berdasarkan uji _Local Moran_ (`p-value < 0.05`):
 
-- 🔴 **Signifikan**: Ada pola spasial yang kuat – wilayah ini layak jadi prioritas analisis atau intervensi.
-- ⚪ **Tidak Signifikan**: Tidak ada indikasi pola spasial yang kuat – kemungkinan penyebaran acak atau tidak stabil.
+- 🟧 **Signifikan**: Ada pola spasial yang kuat – wilayah ini layak jadi prioritas analisis atau intervensi.
+- ⬜ **Tidak Signifikan**: Tidak ada indikasi pola spasial yang kuat – kemungkinan penyebaran acak atau tidak stabil.
 
 ---
 
